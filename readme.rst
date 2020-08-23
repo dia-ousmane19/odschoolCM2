@@ -5,3 +5,6 @@ for using this project in local you need install first the database more informa
 then you will put the whole project in your server(ex:apache)
 then you will go to your localhost.
 
+for accessing in the dashboard,you will go to localhost:port/nameProject/od-admin <br/>
+username : admin ;
+password : admin 

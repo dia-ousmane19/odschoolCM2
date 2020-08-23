@@ -1,0 +1,270 @@
+
+@charset "utf-8";
+/*
+la maniere de stylisé nos classe ou nos id
+od_nom de la classe ou de l'id
+nous devons commenter ce que nous faisons
+
+*/
+
+/*  css du body  */
+body,html{
+	padding: 0;
+	margin: 0;
+}
+/*  fin csss body  */
+.container-fluid{
+	padding: 0;
+	margin: 0;
+}
+
+.od_description:hover{
+	border: none;
+	box-shadow:2px 2px 25px 2px grey;
+	top:-130px;
+	left: 12px;
+	height: auto;
+	background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+
+}
+
+
+.border-bottom{
+	box-shadow: 2px 2px 2px #CCC8C7;
+}
+.od_banniere_img img {
+	width: 100%;
+}
+.od_banniere_img{
+	margin-top: 120px;
+}
+.od_banniere{
+	height: 510px;
+}
+.od_description{
+	border: none;
+	box-shadow:1px 1px 12px 1px grey;
+	top:-130px;
+	left: 12px;
+	height: auto;
+	background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+.od_gros_titre_matiere{
+	color: #19A8D9;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.od_titre_matiere a{
+	color: #000;
+	opacity: .7;
+}
+.od_titre_matiere a:hover{
+	color: #000;
+	opacity: 1;
+	text-decoration: none;
+}
+
+.od_titre_matiere{
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 10px;
+}
+.od_link{
+	color: rgba(0,0,0,0.5);
+	background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+.od_li_link a:hover{
+	box-shadow: 2px 2px 25px 2px grey;
+    color: #000;
+	background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+
+.od_li_link{
+	margin: 7px;
+}
+
+main{
+	height: 560px;
+}
+.od_matiere{
+
+	margin: 20px 0px;
+	height: 140px;
+	width:180px;
+
+}
+.od_img{
+	position: absolute;
+	top: 19px;
+	left: 117px;
+	width: 41px;
+	height: 41px;
+}
+
+.od_img_blog{
+	margin-left: 80px;
+	width: 85px;
+	height: 85px;
+	box-shadow:1px 1px 10px 1px grey;
+}
+.od_img_blog:hover{
+	width: 85px;
+	height: 85px;
+	box-shadow:5px 5px 25px 5px grey;
+}
+
+.od_ensemble_icone{
+	width: 100%;
+}
+
+.od_contenu a{
+	text-decoration:none;
+	color: #37383b;
+	border-bottom: 1px solid #dee2e6;
+}
+.od_contenu a:hover{
+	text-decoration:none;
+	color: #19A8D9;
+	border-bottom: 1px solid #dee2e6;
+}
+
+@media only screen and (max-width: 576px) {
+	.od_description{
+		left: 0;
+		top:0px;
+		background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+		height: auto;
+	}
+
+}
+@media only screen and (max-width: 1215px) {
+	.od_titre_matiere{
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 30px;
+}}
+@media only screen and (max-width: 992px) {
+	.od_titre_matiere{
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 70px;
+}
+	
+
+}
+.od_domaine{
+	text-transform: uppercase;
+	color: #19A8D9;
+	text-align: center;
+}
+.od_header{
+	background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+	margin-top: 126px;
+	height: 160px;
+}
+.od_separator{
+	width: 20%;
+}
+.od_sidebar{
+	height: auto;
+	box-shadow:1px 1px 25px 1px grey;
+	border-radius: 10px 10px;
+}
+.od_sidebar_ul li a{
+	color: rgba(0,0,0,0.6);
+	}
+.od_sidebar_ul li a:hover{
+	color: #000;
+}
+.od_profil{
+	border: none;
+	box-shadow:1px 1px 25px 1px grey;
+	height: auto;
+}
+.od_profil_img{
+	margin: 10px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+.od_profil a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.6);
+
+}
+.od_profil a:hover{
+	text-decoration: none;
+	font-size: 30px;
+	color: #000;
+
+}
+
+.od_main{
+	height: auto;
+}
+.od_inscription{
+	box-shadow: 2px 2px 2px #CCC8C7;
+}
+.od_profil_bg{
+	height: 124px;
+	margin-top: 125px;
+	background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+.od_footer{
+	height: auto;
+}
+.od_mentor_bg{
+	height: 124px;
+	margin-top: 125px;
+	background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+.od_signup{
+	margin-top: 125px;
+
+}
+.od_login{
+	margin-top: 200px;
+	margin-bottom: 120px;
+}
+/*     css du guide */
+.od_img_blog_guide{
+	height: 285px;
+	width: 310px;
+	box-shadow:1px 1px 8px 1px grey;
+
+}
+.od_img_guide img{
+	width: 310px;
+	height: 200px;
+}
+.od_titre_matiere_guide{
+	position: absolute;
+	left: 60px;
+	top: 220px;
+	font-size: 20px;
+}
+.od_text_guide img{
+	width: 334px;
+	height: 255px;
+}
+.od_guide{
+	box-shadow:1px 1px 8px 1px grey;
+
+}
+.fil_adriane{
+	position: fixed;
+	top:120px;
+}
+.od_buton_EEE{
+	background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+}
+/*  fin css guide*/
+
+
+
+
+
